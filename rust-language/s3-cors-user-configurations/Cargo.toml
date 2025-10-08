@@ -1,0 +1,15 @@
+[package]
+name = "s3-cors-user-configurations"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aws-config = "1.5.7"
+aws-sdk-s3 = "1.55.0"
+tokio = { version = "1.40", features = ["rt-multi-thread", "macros"] }
+log = "0.4.22"
+env_logger = "0.11.5"
+dotenv = "0.15.0" # Added for loading .env files
+
+[dev-dependencies]
+tokio = { version = "1.40", features = ["rt-multi-thread", "macros", "test-util"] } # For testing

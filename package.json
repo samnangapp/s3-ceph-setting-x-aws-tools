@@ -1,0 +1,26 @@
+{
+  "name": "s3-ceph-setting-x-aws-tools",
+  "version": "1.0.0",
+  "description": "For configurations on s3 buckets Or users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samnangapp/s3-ceph-setting-x-aws-tools.git"
+  },
+  "keywords": [
+    "s3",
+    "ceph",
+    "aws",
+    "bucket",
+    "api"
+  ],
+  "author": "samnang Yat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samnangapp/s3-ceph-setting-x-aws-tools/issues"
+  },
+  "homepage": "https://github.com/samnangapp/s3-ceph-setting-x-aws-tools#readme"
+}

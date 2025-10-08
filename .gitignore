@@ -1,0 +1,37 @@
+# ==============================
+# Rust / Cargo
+# ==============================
+# Ignore build artifacts
+/target/
+
+# Ignore Cargo.lock in libraries (keep it in binaries)
+/Cargo.lock
+
+# Ignore generated docs
+/target/doc/
+
+# Ignore IDE/editor files
+**/*.rs.bk
+**/*.swp
+.idea/
+.vscode/
+*.log
+
+# ==============================
+# Node.js / JavaScript
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# ==============================
+# OS-specific
+# ==============================
+.DS_Store
+Thumbs.db
