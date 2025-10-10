@@ -24,12 +24,12 @@ const AWS = require("aws-sdk");
 const https = require("https");
 
 // ====== CONFIGURE YOUR CREDENTIALS AND ENDPOINT ======
-const ACCESS_KEY_ID = "T42Z96YP732R64J88FTV";
-const SECRET_ACCESS_KEY = "KMjs6axTTH6CcMw1MC4TLJaK8NAgOm2oWwmpdqdv";
+const ACCESS_KEY_ID = "T42Z96YP73";
+const SECRET_ACCESS_KEY = "KMjs6axTTH6CcMw1";
 const ENDPOINT = "https://fsgw.sabay.com";
 
 // ====== DEFINE WHICH BUCKETS TO CHECK ======
-const BUCKETS = ["robotic-tr"]; // 👈 Add more if needed
+const BUCKETS = ["bucket-name"]; // 👈 Add more if needed
 
 // ====== INITIALIZE S3 CLIENT ======
 const httpsAgent = new https.Agent({
