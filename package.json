@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/samnangapp/s3-ceph-setting-x-aws-tools/issues"
   },
-  "homepage": "https://github.com/samnangapp/s3-ceph-setting-x-aws-tools#readme"
+  "homepage": "https://github.com/samnangapp/s3-ceph-setting-x-aws-tools#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  }
 }

@@ -13,3 +13,4 @@ dotenv = "0.15.0" # Added for loading .env files
 
 [dev-dependencies]
 tokio = { version = "1.40", features = ["rt-multi-thread", "macros", "test-util"] } # For testing
+

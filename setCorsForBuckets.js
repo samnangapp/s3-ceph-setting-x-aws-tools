@@ -34,12 +34,12 @@ const AWS = require("aws-sdk");
 const https = require("https");
 
 // ====== CONFIGURE YOUR CREDENTIALS AND ENDPOINT ======
-const ACCESS_KEY_ID = "Pf0bwWzH72QKa7cTlI41";
-const SECRET_ACCESS_KEY = "pCR8IopdtadqVVzJtDhl48bNvspM5HCftRoOnmLS";
-const ENDPOINT = "https://s3-domain.com";
+const ACCESS_KEY_ID = "T42Z96YP732R64J88FTV";
+const SECRET_ACCESS_KEY = "KMjs6axTTH6CcMw1MC4TLJaK8NAgOm2oWwmpdqdv";
+const ENDPOINT = "https://fsgw.sabay.com";
 
 // List all buckets you want to update
-const BUCKETS = ["robotic-bk", "robotic-bk0"]; // 👈 Add more if needed
+const BUCKETS = ["robotic-tr"]; // 👈 Add more if needed
 
 // ====== DEFINE CORS CONFIGURATION (same as AWS policy) ======
 const CORSConfiguration = {
@@ -47,7 +47,7 @@ const CORSConfiguration = {
     {
       AllowedHeaders: ["*"],
       AllowedMethods: ["GET", "HEAD"],
-      AllowedOrigins: ["https://your-app.com", "https://*.your-app.com"],
+      AllowedOrigins: ["https://streaming-demo.sabay.com", "https://*.sabay.com"],
       ExposeHeaders: [],
       MaxAgeSeconds: 600,
     },
