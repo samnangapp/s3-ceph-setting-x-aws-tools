@@ -21,8 +21,8 @@ It supports: - ⚙️ Applying custom CORS rules\
 - 🔍 Verifying current bucket CORS settings\
 - 🧹 Resetting (removing) all CORS configurations\
 - 🔗 Applying both CORS + public bucket policy\
-- 🌐 **Toggle bucket: PUBLIC ↔ PRIVATE**\
-- 🆕 **Verify actual public access state**
+- 🌐 Toggle bucket: PUBLIC ↔ PRIVATE\
+- 🆕 Verify actual public access state
 
 > 🛡️ All scripts are **idempotent** --- safe to run multiple times.
 
